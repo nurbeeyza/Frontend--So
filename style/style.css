@@ -4,3 +4,96 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
 }
+@import url("./fonts.css");
+@import url("./reset.css");
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: black;
+}
+/* BEYZANURMETE-HERO-SECTİON-START */
+.hero {
+  position: absolute; 
+  top: 87px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75.6px; 
+  letter-spacing: 0.68px;
+  margin-bottom: 10px;
+}
+
+
+.hero p {
+  color: #FFF;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.3px; 
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 36px;
+  font-size: 1rem;
+  font-weight: 400;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+
+.first-button {
+  border: 1px solid #000;
+  background: linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%);
+  color: #FFF;
+}
+
+.first-button:hover {
+  background: linear-gradient(99deg, #8C01FA -10%, #000 120%);
+  border-color: #8C01FA;
+}
+
+
+.second-button {
+  border: 1px solid #FFF;
+  background: #000;
+  color: #FFF;
+}
+
+.second-button:hover {
+  background: #FFF;
+  color: #000;
+  border-color: #000;
+}
+
+/* BEYZANURMETE-HERO-SECTİON-END */
