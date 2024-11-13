@@ -4,3 +4,60 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
 }
+
+/* deniz header style.css started*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #1b1b1b;
+}
+
+.announcement {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 17px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  position: relative;
+  z-index: 10;
+}
+
+.logo img {
+  height: 30px;
+  margin-left: 200px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  color: #848895;
+  margin-right: 200px;
+}
+
+.nav-links li a {
+  color: #848895;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.nav-links li a i {
+  color: #848895;
+}
+/* deniz header style.css started*/
