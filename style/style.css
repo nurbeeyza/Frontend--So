@@ -22,7 +22,7 @@ body {
 .header__navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px 20px;
 }
