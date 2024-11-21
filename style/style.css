@@ -4,8 +4,7 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
 }
-
-/* Header Genel Stiller */
+/* deniz-header-started*/
 .header {
   width: 100%;
 }
@@ -44,3 +43,4 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+/* deniz-header-finished*/
