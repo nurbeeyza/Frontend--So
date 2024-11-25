@@ -3,9 +3,11 @@
 
 
 
+
 body {
   font-family: "Helvetica Neue", sans-serif;
   background-color: black;
+  
 }
 /* BEYZANURMETE-HERO-SECTİON-START */
 .hero {
@@ -17,11 +19,12 @@ body {
   align-items: center;
   color: white;
   text-align: center;
-  padding: 0 20px;
-  background-image: url('../images/left.png'), url('../images/right.png');
-  background-position: left center, right center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: 
+  url("../images/right.jpg") left top no-repeat,  
+  url("../images/left.jpg") right top no-repeat; 
+background-size: contain; 
+
+
 }
 
 .hero h1 {
