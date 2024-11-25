@@ -11,8 +11,9 @@ body {
 }
 /* BEYZANURMETE-HERO-SECTİON-START */
 .hero {
-  height: 400px;
-  margin-block: 100px;
+  position: relative;
+  z-index: -1;
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +24,7 @@ body {
   url("../images/right.jpg") left top no-repeat,  
   url("../images/left.jpg") right top no-repeat; 
 background-size: contain; 
+margin-top: -54px;
 
 
 }
