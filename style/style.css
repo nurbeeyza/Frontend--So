@@ -3,6 +3,11 @@
 
 body {
   font-family: "Helvetica Neue", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 /* deniz-header-started*/
 .header {
@@ -45,13 +50,7 @@ body {
 }
 /* deniz-header-finished*/
 /* Genel Ayarlar */
-body {
-  font-family: "Helvetica Neue", sans-serif;
-  background-color: black;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
+
 /* Banner Section */
 .banner {
   display: flex;
