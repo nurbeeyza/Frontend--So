@@ -1,13 +1,9 @@
 @import url("./fonts.css");
 @import url("./reset.css");
 
-
-
-
 body {
   font-family: "Helvetica Neue", sans-serif;
   background-color: black;
-  
 }
 /* BEYZANURMETE-HERO-SECTİON-START */
 .hero {
@@ -20,13 +16,9 @@ body {
   align-items: center;
   color: white;
   text-align: center;
-  background: 
-  url("../images/right.jpg") left top no-repeat,  
-  url("../images/left.jpg") right top no-repeat; 
-background-size: contain; 
-margin-top: -54px;
-
-
+  background: url("../images/right.jpg") left top no-repeat, url("../images/left.jpg") right top no-repeat;
+  background-size: contain;
+  margin-top: -54px;
 }
 
 .hero h1 {
@@ -54,42 +46,37 @@ margin-top: -54px;
 }
 
 .hero-button {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.hero-button {
   display: inline-block;
   padding: 15px 30px;
   text-decoration: none;
   border-radius: 36px;
   font-size: 1rem;
-  font-weight: 00;
+  font-weight: 300;
   transition: all 0.3s ease;
   text-align: center;
 }
 
 .start-building-btn {
   border: 1px solid #000;
-  background: linear-gradient(99deg, #8C01FA -2.99%, #000 102.28%);
-  color: #FFF;
-}
-
-.start-building-btn:hover {
-  background: linear-gradient(99deg, #8C01FA -10%, #000 120%);
-  border-color: #8C01FA;
+  background: linear-gradient(99deg, #8c01fa -2.99%, #000 102.28%);
+  color: #fff;
 }
 
 .read-docs-btn {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   background: #000;
-  color: #FFF;
+  color: #fff;
+}
+.start-building-btn:hover {
+  background: linear-gradient(99deg, #fff -2.99%, #8c01fa 102.28%);
+  color: #000;
+  border-color: #8c01fa;
 }
 
 .read-docs-btn:hover {
-  background: #FFF;
+  background: #fff;
   color: #000;
-  border-color: #000;
+  border-color: #fff;
 }
+
 /* BEYZANURMETE-HERO-SECTİON-END */
