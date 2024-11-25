@@ -92,5 +92,26 @@ body {
 .banner-start-building-btn:hover {
   background: linear-gradient(99deg, #8c01fa -10%, #000 120%);
 }
+@media screen and (max-width: 768px) {
+  .banner-text h1 {
+    font-size: 24px;
+  }
 
+  .banner-start-building-btn {
+    width: 100px; 
+    height: 35px; 
+    font-size: 14px; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-text h1 {
+    font-size: 18px; 
+  }
+
+  .banner-start-building-btn {
+    
+    font-size: 12px; 
+  }
+}
 /* Banner Section */
