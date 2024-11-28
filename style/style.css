@@ -4,6 +4,7 @@
 /* CSS kodları buraya gelecek */
 body {
   font-family: "Helvetica Neue", sans-serif;
+  background-color: #000000;
 }
 /* deniz/header-started */
 
@@ -109,6 +110,132 @@ body {
     left: 0;
     background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
+  }
+}
+
+/* BEYZANURMETE-HERO-SECTİON-START */
+.hero {
+  position: relative;
+  z-index: -1; 
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  background: url("../images/right.jpg") left top no-repeat, 
+              url("../images/left.jpg") right top no-repeat;
+  background-size: contain;
+  margin-top: -54px;
+}
+
+.hero h1 {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 75.6px;
+  letter-spacing: 0.68px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.3px;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 36px;
+  font-size: 1rem;
+  font-weight: 300;
+  transition: all 0.3s ease; 
+  text-align: center;
+  cursor: pointer; 
+}
+
+.start-building-btn {
+  border: 1px solid #000;
+  background: linear-gradient(99deg, #8c01fa -2.99%, #000 102.28%);
+  color: #fff;
+}
+
+.read-docs-btn {
+  border: 1px solid #fff;
+  background: #000;
+  color: #fff;
+}
+
+
+.start-building-btn:hover {
+  background: linear-gradient(99deg, #fff -2.99%, #8c01fa 102.28%);
+  color: #000;
+  border-color: #8c01fa;
+  box-shadow: 0 0 15px #8c01fa, 0 0 30px #8c01fa;
+}
+
+.read-docs-btn:hover {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+  box-shadow: 0 0 15px #fff, 0 0 30px #fff;
+}
+@media (max-width: 768px) {
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+  }
+
+  
+  .hero p {
+    font-size: 13px; 
+    margin-bottom: 20px;
+  }
+
+  
+  .hero-button {
+    display: block; 
+    width: 100%;    
+    margin-right: 0; 
+    margin-bottom: 20px;
+    text-align: center; 
+  }
+
+
+}
+
+
+@media (max-width: 480px) {
+ 
+  .hero h1 {
+    font-size: 32px; 
+    margin-bottom: 10px; 
+    line-height: 1.2;
+  }
+
+
+  .hero p {
+    font-size: 10px; 
+    margin-bottom: 15px; 
+  }
+
+  
+  .hero-button {
+    font-size: 0.75rem; 
   }
 }
 
