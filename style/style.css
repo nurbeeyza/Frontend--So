@@ -58,7 +58,7 @@ body {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color:  #848895;
   border-radius: 2px;
 }
 
@@ -108,7 +108,7 @@ body {
     position: absolute;
     top: 49px;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.6);
     width: 100%;
   }
 }
@@ -238,4 +238,68 @@ body {
     font-size: 0.75rem; 
   }
 }
+/* BEYZANURMETE-HERO-SECTİON-finished */
 
+/* Deniz-Number-Section-started */
+.number-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  max-width: 1200px;
+  margin: 50px auto;
+  color: white;
+}
+
+.number-left {
+  flex: 1;
+  max-width: 320px;
+}
+
+.number-title {
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 100px;
+}
+
+.number-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  gap: 48px; 
+}
+
+.number-item {
+  text-align: left; 
+}
+
+.number-value {
+  margin: 0;
+}
+
+.number-value--blue {
+  background: linear-gradient(262deg, #19FB9B -8.01%, #8C01FA 100%);
+  font-size: 100px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.number-value--green {
+  background:linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%);
+  font-size: 100px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.number-value--purple {
+  background: linear-gradient(265deg, #00FFBD -5.84%, #025B8C 111.58%);
+  font-size: 100px;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.number-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #aaa;
+}
+/* deniz-NumberSection-finished */
