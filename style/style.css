@@ -58,7 +58,7 @@ body {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: black;
+  background-color: #848895;
   border-radius: 2px;
 }
 
@@ -116,7 +116,7 @@ body {
 /* BEYZANURMETE-HERO-SECTİON-START */
 .hero {
   position: relative;
-  z-index: -1; 
+  z-index: -1;
   height: 650px;
   display: flex;
   flex-direction: column;
@@ -124,8 +124,7 @@ body {
   align-items: center;
   color: white;
   text-align: center;
-  background: url("../images/right.jpg") left top no-repeat, 
-              url("../images/left.jpg") right top no-repeat;
+  background: url("../images/right.jpg") left top no-repeat, url("../images/left.jpg") right top no-repeat;
   background-size: contain;
   margin-top: -54px;
 }
@@ -161,9 +160,9 @@ body {
   border-radius: 36px;
   font-size: 1rem;
   font-weight: 300;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
   text-align: center;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .start-building-btn {
@@ -177,7 +176,6 @@ body {
   background: #000;
   color: #fff;
 }
-
 
 .start-building-btn:hover {
   background: linear-gradient(99deg, #fff -2.99%, #8c01fa 102.28%);
@@ -193,49 +191,72 @@ body {
   box-shadow: 0 0 15px #fff, 0 0 30px #fff;
 }
 @media (max-width: 768px) {
-  
   .hero h1 {
     font-size: 40px;
     margin-bottom: 5px;
     line-height: 1.2;
   }
 
-  
   .hero p {
-    font-size: 13px; 
+    font-size: 13px;
     margin-bottom: 20px;
   }
 
-  
   .hero-button {
-    display: block; 
-    width: 100%;    
-    margin-right: 0; 
+    display: block;
+    width: 100%;
+    margin-right: 0;
     margin-bottom: 20px;
-    text-align: center; 
+    text-align: center;
   }
-
-
 }
 
-
 @media (max-width: 480px) {
- 
   .hero h1 {
-    font-size: 32px; 
-    margin-bottom: 10px; 
+    font-size: 32px;
+    margin-bottom: 10px;
     line-height: 1.2;
   }
 
-
   .hero p {
-    font-size: 10px; 
-    margin-bottom: 15px; 
+    font-size: 10px;
+    margin-bottom: 15px;
   }
 
-  
   .hero-button {
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
   }
 }
+/* BEYZANURMETE-HERO-SECTİON-finished */
 
+/* deniz-trusted-brands-started*/
+.partner-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #000;
+}
+.partner-heading {
+  font-weight: 300;
+  color: #6e82d9; 
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.partner-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.partner-logo {
+  height: auto; 
+  max-width: 100px; 
+  object-fit: contain; 
+  transition: transform 0.3s ease; 
+}
+
+.partner-logo:hover {
+  transform: scale(1.1); 
+}
+/* deniz-trusted-brands-finished*/
