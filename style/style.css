@@ -46,9 +46,6 @@ body {
 }
 /* deniz-header-finished*/
 /* beyza-join-community-start */
-
-
-
 .join-container > div > img {
   width: 100%;
   height: 100%;
@@ -62,6 +59,7 @@ body {
   grid-gap: 5px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 200px;
+  margin-top: 50px;
   
 }
 
@@ -76,16 +74,69 @@ body {
 
 .big .description {
   position: absolute;
-  top: -35px;
+  top: -60px;
   padding: 10px;
   font-family: Helvetica;
   font-size: 20px;
   left: 5px;
   color: #FFFFFF;
+  font-size: 30px;
 }
 
 .orta {
   grid-row: span 2;
 }
+@media (max-width: 1500px) {
+  .join-container > div > img {
+    width: 100%;
+    height: auto;
+  }
 
-/* beyza-join-community-end */
+  .big .description {
+    font-size: 24px; 
+  }
+
+  .big {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .big .description {
+    font-size: 24px; 
+    top: -45px; 
+  }
+
+  
+  .orta {
+    grid-column: span 1;
+    grid-row: span 1; 
+  }
+}
+
+
+@media (max-width: 900px) {
+  .join-container > div > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .big {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .big .description {
+    font-size: 18px; 
+    top: -40px; 
+  }
+
+  
+  .orta {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .join-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  }
+}
