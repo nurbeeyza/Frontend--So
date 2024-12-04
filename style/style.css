@@ -234,6 +234,8 @@ body {
   text-align: center;
   padding: 50px 20px;
   background: #000;
+  margin-top: -100px;
+ 
 }
 .partner-heading {
   font-weight: 300;
@@ -259,25 +261,31 @@ body {
 .partner-logo:hover {
   transform: scale(1.1); 
 }
+
 /* deniz-trusted-brands-finished*/
 .number-section {
+  font-family: Helvetica, sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: flex-start; 
   max-width: 1200px;
+  width: 90%;
   height: auto;
   margin: 100px auto;
   color: white;
+  box-sizing: border-box;
+  overflow: hidden; 
 }
 
 .number-left {
   flex: 1;
   max-width: 320px;
+  text-align: left;
 }
 
 .number-title {
   font-size: 38px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.5;
  
 }
@@ -321,6 +329,64 @@ body {
   font-size: 16px;
   font-weight: 300;
   color: #aaa;
+}
+@media (max-width: 768px) {
+  .number-section {
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px; 
+    text-align: center; 
+    margin: 50px auto;
+  }
+
+  .number-left {
+    max-width: 100%; 
+  }
+
+  .number-title {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .number-right {
+    width: 70%; 
+    gap: 30px; 
+    align-items: center; 
+  }
+
+  .number-item {
+    text-align: center; 
+  }
+
+  .number-value--blue,
+  .number-value--green,
+  .number-value--purple {
+    font-size: 60px; 
+  }
+
+  .number-label {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .number-section {
+    margin: 50px auto; 
+  }
+
+  .number-title {
+    font-size: 24px; 
+  }
+
+  .number-value--blue,
+  .number-value--green,
+  .number-value--purple {
+    font-size: 50px;
+  }
+
+  .number-label {
+    font-size: 12px; 
+  }
 }
 /* deniz-NumberSection-finished */
 
