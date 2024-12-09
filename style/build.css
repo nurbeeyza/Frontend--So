@@ -23,9 +23,11 @@ body {
 }
 
 .header__navbar {
+  margin: auto;
+  max-width: 1400px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 15px 20px;
 }
@@ -115,6 +117,8 @@ body {
 
 /* Beyza-Hero-Build-Start */
 .hero-build-container {
+  margin: auto;
+  max-width: 1440px;
     display: flex;
     color: white;
     justify-content: space-between;
@@ -122,7 +126,7 @@ body {
 }
 
 .hero-build-text {
-    margin: auto;
+  
     max-width: 500px;
 }
 
@@ -208,26 +212,43 @@ body {
     }
 }
 @media (max-width: 768px) {
-    .hero-build-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
+  .hero-build-container {
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+  }
 
-    .hero-build-image {
-        max-width: 100%;
-        margin-top: 20px;
-    }
+  .hero-build-text {
+    max-width: 50%;
+    text-align: center; 
+    padding-left: 0; 
+  }
 
-    .hero-build-buttons {
-        flex-direction: column;
-        gap: 20px;
-    }
+  .hero-build-text h1 {
+    font-size: 48px; 
+  }
 
-    .hero-build-now,
-    .hero-stack-exchange {
-        width: 100%;
-    }
+  .hero-build-text p {
+    font-size: 16px; 
+    margin-top: 15px; 
+    text-align: center;
+  }
+
+  .hero-build-buttons {
+    flex-direction: column; 
+    gap: 20px;
+    justify-content: center; 
+  }
+
+  .hero-build-now, .hero-stack-exchange {
+    width: 100%;
+    padding: 15px; 
+  }
+
+  .hero-build-image {
+    max-width: 100%;
+    margin-top: 20px;
+    
 }
 
 /* Beyza-Hero-Build-end */
