@@ -1,0 +1,233 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+
+/* CSS kodları buraya gelecek */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #000000;
+}
+/* deniz/header-started */
+
+.header {
+  width: 100%;
+}
+
+.header__announcement {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 18px;
+  width: 100%;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+}
+
+.header__logo img {
+  width: 30px;
+  height: 19px;
+}
+
+.header__nav-links {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+}
+
+.header__nav-links li a {
+  color: #848895;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.header__hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.header__hamburger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #848895;
+  border-radius: 2px;
+}
+
+.header__menu-toggle {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .header__announcement {
+    font-size: 14px;
+  }
+  .header__navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    position: relative;
+  }
+  .header__logo {
+    position: absolute;
+    right: 20px;
+  }
+  .header__hamburger {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .header__nav-links {
+    display: none;
+    flex-direction: column;
+    position: static;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    gap: 10px;
+    padding: 20px 10px;
+    border: none;
+  }
+  .header__nav-links li a {
+    color: #848895;
+    font-size: 16px;
+    padding-left: 20px;
+  }
+  .header__menu-toggle:checked ~ .header__nav-links {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 49px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+  }
+}
+
+/* Beyza-Hero-Build-Start */
+.hero-build-container {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-build-text {
+    margin: auto;
+    max-width: 500px;
+}
+
+.hero-build-text h1 {
+    font-size: 100px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.hero-build-text h1 span {
+    color: #FFFFFF;
+}
+
+.hero-build-text p {
+    font-family: "Helvetica";
+    font-size: 21px;
+    color: #C4C4C4;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.hero-build-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px; 
+}
+
+.hero-build-now {
+    background-color: #14F195;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: #000000;
+    width: 170px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-build-now:hover {
+    background-color: #868488;
+}
+
+.hero-stack-exchange {
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 15px 30px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hero-stack-exchange:hover {
+    background-color: #444;
+}
+
+.hero-stack-exchange img {
+    vertical-align: middle;
+}
+
+.hero-build-image {
+    margin: auto;
+}
+@media (max-width: 1100px){
+    .hero-build-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hero-build-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero-build-buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-build-now,
+    .hero-stack-exchange {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .hero-build-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hero-build-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .hero-build-buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-build-now,
+    .hero-stack-exchange {
+        width: 100%;
+    }
+}
+
+/* Beyza-Hero-Build-end */
