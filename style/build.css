@@ -252,3 +252,67 @@ body {
 }
 }
 /* Beyza-Hero-Build-end */
+
+/* beyza/get-started-started */
+
+.get-started-container {
+  margin: auto;
+  max-width: 1440px;
+}
+.get-started-text {
+  margin-left: 165px;
+}
+
+.get-started-container h1 {
+  font-family: "Helvetica";
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.get-started-container p {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-family: "Helvetica";
+  font-size: 20px;
+  color: #c4c4c4;
+  font-weight: 400;
+}
+
+.get-started-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 15px;
+  width: 100%;
+}
+
+.get-started-large-photo {
+  grid-column: span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+}
+
+.get-started-large-photo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.get-started-small-photos {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 75%;
+}
+
+.small-photo img {
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+/* beyza/get-started-end */
